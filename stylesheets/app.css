@@ -1,0 +1,781 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: 1: GLOBAL STYLES
+:: 2: FONTS AND THEIR DECLARATIONS
+:: 3: HEADINGS
+:: 4: SECTIONS
+:: 3: Headings
+:: 3: Headings
+:: 3: Headings
+:: 3: Headings
+*/
+
+/******************************************************************************************************************************************************
+GLOBAL STYLES
+********************************************************************************************************************************************************/
+body {
+	background: #F5F5F5;
+}
+.homebg {
+	width: 100%;
+	background: url(../images/header_bg_large.jpg) repeat-x;
+	min-height: 570px;
+	padding: 18px 0 0 0;
+}
+.innerpagebg {
+	width: 100%;
+	background: url(../images/innerpagebg.png) repeat-x;
+	min-height: 169px;
+	padding: 18px 0 0 0;
+}
+.pagebg {
+	width: 100%;
+	background: url(../images/header_bg_large.jpg) repeat-x;
+	min-height: 570px;
+	padding: 18px 0 0 0;
+}
+/******************************************************************************************************************************************************
+FONT DECLARATIONS
+********************************************************************************************************************************************************/
+@font-face {
+	font-family: 'proxima_nova_cn_rgitalic';
+	src: url('../fonts/proximanovacond-regularit-webfont.eot');
+	src: url('../fonts/proximanovacond-regularit-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovacond-regularit-webfont.woff') format('woff'), url('../fonts/proximanovacond-regularit-webfont.ttf') format('truetype'), url('../fonts/proximanovacond-regularit-webfont.svg#proxima_nova_cn_rgitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'proxima_nova_ltbold';
+	src: url('../fonts/proximanova-semibold-webfont.eot');
+	src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-semibold-webfont.woff') format('woff'), url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'), url('../fonts/proximanova-semibold-webfont.svg#proxima_nova_ltbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Dosis Bold'), local('Dosis-Bold'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/x-7NZTw0n-ypOAaIE8uSrvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+	font-family: 'english111_vivace_btregular';
+	src: url('../fonts/e111viva-webfont.eot');
+	src: url('../fonts/e111viva-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/e111viva-webfont.woff') format('woff'), url('../fonts/e111viva-webfont.ttf') format('truetype'), url('../fonts/e111viva-webfont.svg#english111_vivace_btregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/******************************************************************************************************************************************************
+HEADINGS
+********************************************************************************************************************************************************/
+h1 {
+	font-family: 'english111_vivace_btregular', Georgia, "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 18px;
+}
+h1 span.embosed {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+h2 {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+h3 {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+h4 {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+h5 {
+	font-family: 'Droid Serif', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	letter-spacing: normal;
+	text-transform: capitalize;
+	line-height: 20px;
+	margin: 0px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.invitation_details {
+	background: #FFF;
+}
+.invitation .invitation_details h3 {
+	font-size: 1.2em;
+}
+.invitation .invitation_details h4 {
+	font-size: 1.2em;
+}
+h4 {
+	width: 100%;
+	font-size: 18px;
+	color: #C84731;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #E4E4E4;
+	line-height: 0.1em;
+	margin: 5px 0 20px;
+}
+h4 span {
+	background: #F5F5F5;
+	padding: 0 10px;
+}
+/******************************************************************************************************************************************************
+COLORS
+********************************************************************************************************************************************************/
+.brown {
+	color: #7A5433;
+}
+.darkbrown {
+	color: #4E3F32
+}
+.meroon {
+	color: #C84731;
+}
+/******************************************************************************************************************************************************
+SECTIONS AND BLOCKS
+********************************************************************************************************************************************************/
+.user_credentials {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #4E3F32;
+	padding-top: 15px;
+	height: 30px;
+	padding-right: 45px;
+}
+.user_credentials a {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #4E3F32;
+}
+.user_credentials a:hover {
+	color: #C84731;
+}
+.user_credentials a:active {
+	color: #C84731;
+	margin-top: 2px;
+}
+.title_graphic {
+	text-align: center;
+}
+.bird_graphic {
+	text-align: center;
+}
+.extramargin {
+	margin: 90px auto 10px !important;
+}
+/******************************************************************************************************************************************************
+FOUNDATION  OVERRIDES
+********************************************************************************************************************************************************/
+footer {
+	background: #ffffff url(../images/footer_border.jpg) repeat-x left top;
+	min-height: 250px;
+	margin: 30px 0px 0px 0px;
+	padding: 30px 20px
+}
+footer a {
+	font-size: 13px;
+	font-weight: normal;
+	color: #5E5E5E;
+	line-height: 24px;
+}
+footer a:hover {
+	color: #C84731;
+}
+blockquote {
+	margin: 0 0 17px;
+	padding: 9px 20px 0 19px;
+	border: 0px;
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.top_nav {
+	margin-top: 20px;
+	height: 30px;
+}
+.top_nav ul.nav-bar li a {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	background: none;
+}
+.nav-bar>li>a:first-child {
+	position: relative;
+	padding: 4px 10px;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #4E3F32;
+}
+.nav-bar {
+	margin-top: 6px;
+	background: none;
+}
+.nav-bar>li {
+	border: none;
+	border-radius: 4px;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+.nav-bar>li:last-child {
+	border: none;
+	border-radius: 4px;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+.nav-bar>li.active {
+	background: #4E3F32;
+	border-color: #4E3F32;
+	color: #F8E05C;
+	border-radius: 4px;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+.nav-bar>li.active a {
+	background: #4E3F32;
+	border-color: #4E3F32;
+	color: #F8E05C;
+	border-radius: 4px;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+.nav-bar>li>a:first-child:hover {
+	background: #4E3F32;
+	border-color: #4E3F32;
+	color: #F8E05C;
+	border-radius: 4px;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+footer ul.link-list>li {
+	list-style: none;
+	float: none;
+	margin-left: 22px;
+	display: block;
+}
+#searchwrapper {
+	width: 211px; /*follow your image's size*/
+	height: 40px;/*follow your image's size*/
+	background-image: url(../images/search_box_bg.png);
+	background-repeat: no-repeat; /*important*/
+	padding: 0px;
+	margin: 0px;
+	position: relative; /*important*/
+}
+#searchwrapper form {
+	display: inline;
+}
+.searchbox {
+	border: 0px; /*important*/
+	background-color: transparent; /*important*/
+	position: absolute; /*important*/
+	top: 4px;
+	left: 9px;
+	width: 100px;
+	height: 28px;
+}
+.searchbox_submit {
+	border: 0px; /*important*/
+	background-color: transparent; /*important*/
+	position: absolute; /*important*/
+	top: 8px;
+	left: 160px;
+	width: 20px;
+	height: 20px;
+}
+.button {
+	width: auto;
+	background: #544538;
+	border: 1px solid #47382B;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	padding: 10px 20px 11px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+}
+.nav-bar>li.has-flyout>a:first-child:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: solid 4px;
+	border-color: #4E3F32 transparent transparent transparent;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+.caps {
+	text-transform: uppercase;
+}
+.martop10 {
+	margin-top: 10px;
+}
+.martop20 {
+	margin-top: 20px;
+}
+.ctabutton {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+.nav-bar>li.has-flyout>a.flyout-toggle {
+	border-left: 0 !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+	z-index: 2;
+	display: block;
+}
+.footer-border {
+	background: url(../images/footer_bottom_border.png) no-repeat center top;
+	margin: 0px auto;
+	min-height: 100px;
+}
+.footer-border p {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	color: #5E5E5E;
+}
+.droid {
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-style: italic;
+}
+.top_nav ul.flyout {
+	background: #ffffff;
+	padding: 4px 4px;
+	list-style: none;
+	margin-top: -10px;
+	border-radius: 4px;
+}
+.top_nav ul.flyout li {
+	border: none;
+	border-bottom: 1px solid #E5E5E5;
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+}
+.top_nav ul.flyout li:hover {
+	border: none;
+	border-bottom: 1px solid #4F3F32;
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	background: #4F3F32;
+	color: #F8E05C;
+}
+.top_nav ul.flyout li a {
+	background: #ffffff;
+	border: none;
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	color: #4F3F32;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	height: auto;
+	line-height: 1;
+	padding: 8px 12px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.top_nav ul.flyout li a:hover {
+	background: #4F3F32;
+	color: #F8E05C;
+}
+.round {
+	width: 100%;
+	border-radius: 15px;
+	border: 1px #fff solid;
+	padding: 5px 5px 5px 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.corner {
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	height: 20px;
+	width: 20px;
+	z-index: 10;
+	border-radius: 10px;
+	border: none;
+	background: #000; /* Set the bg image here. with "no-repeat" */
+}
+.search {
+	position: relative;
+	width: 190px;
+	height: 30px;
+}
+/******************************************************************************************************************************************************
+FOUNDATION PAGINATION  OVERRIDES
+********************************************************************************************************************************************************/
+div.pagination-centered {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	clear: both;
+}
+ul.pagination li {
+	float: left;
+	display: block;
+	height: 24px;
+	color: #999;
+	font-size: 14px;
+	margin-left: 1px;
+}
+ul.pagination li a {
+	background: #E5E5E5;
+	color: #B8B8B8;
+	font-weight: bold;
+	cursor: default;
+	border-radius: 2px;
+	cursor: pointer;
+	display: block;
+	padding: 3px 10px 3px;
+	color: #555;
+}
+ul.pagination li.current a {
+	background: #4F3F32;
+	color: #F8E05C;
+	font-weight: bold;
+	cursor: default;
+	border-radius: 2px;
+}
+/******************************************************************************************************************************************************
+FOUNDATION SIDE NAVIGATION OVERRIDES
+********************************************************************************************************************************************************/
+ul.side-nav {
+	width: 100%;
+}
+.navcontainer {
+	background: #FFF;
+	padding: 10px;
+	margin-top: 20px;
+}
+.navborder {
+	border: 1px solid #E5E5E5;
+	padding: 0px 20px 0px 20px;
+}
+/******************************************************************************************************************************************************
+SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
+********************************************************************************************************************************************************/
+[class*="foundicon-"]:after {
+	position: relative;
+	top: -4px;
+	left: 10px;
+	color: #888;
+	font-size: 80%;
+	font-style: normal;
+}
+.foundicon-thumb-up:after {
+	content: "thumb-up";
+}
+.foundicon-thumb-down:after {
+	content: "thumb-down";
+}
+.foundicon-rss:after {
+	content: "rss";
+}
+.foundicon-facebook:after {
+	content: "facebook";
+}
+.foundicon-twitter:after {
+	content: "twitter";
+}
+.foundicon-pinterest:after {
+	content: "pinterest";
+}
+.foundicon-github:after {
+	content: "github";
+}
+.foundicon-path:after {
+	content: "path";
+}
+.foundicon-linkedin:after {
+	content: "linkedin";
+}
+.foundicon-dribbble:after {
+	content: "dribbble";
+}
+.foundicon-stumble-upon:after {
+	content: "stumble-upon";
+}
+.foundicon-behance:after {
+	content: "behance";
+}
+.foundicon-reddit:after {
+	content: "reddit";
+}
+.foundicon-google-plus:after {
+	content: "google-plus";
+}
+.foundicon-youtube:after {
+	content: "youtube";
+}
+.foundicon-vimeo:after {
+	content: "vimeo";
+}
+.foundicon-flickr:after {
+	content: "flickr";
+}
+.foundicon-slideshare:after {
+	content: "slideshare";
+}
+.foundicon-picassa:after {
+	content: "picassa";
+}
+.foundicon-skype:after {
+	content: "skype";
+}
+.foundicon-steam:after {
+	content: "steam";
+}
+.foundicon-instagram:after {
+	content: "instagram";
+}
+.foundicon-foursquare:after {
+	content: "foursquare";
+}
+.foundicon-delicious:after {
+	content: "delicious";
+}
+.foundicon-chat:after {
+	content: "chat";
+}
+.foundicon-torso:after {
+	content: "torso";
+}
+.foundicon-tumblr:after {
+	content: "tumblr";
+}
+.foundicon-video-chat:after {
+	content: "video-chat";
+}
+.foundicon-digg:after {
+	content: "digg";
+}
+.foundicon-wordpress:after {
+	content: "wordpress";
+}
+/******************************************************************************************************************************************************
+INVITATIONS
+********************************************************************************************************************************************************/
+.invitation {
+	text-align: center;
+}
+.shadow {
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.invitation a {
+	text-decoration: none !important;
+}
+a {
+	color: #e8554e;
+	text-decoration: none;
+}
+.invitation .invitation_details hgroup {
+	width: 100%;
+	margin: 0 auto;
+}
+.invitation .invitation_details figure img {
+	color: transparent;
+	font-size: 0;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
+.invitation .invitation_details figure figcaption {
+	height: 6px;
+}
+.color-bar {
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	white-space: nowrap;
+	background: #F6DE5A;
+}
+.invitation .invitation_details dl {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 6px 0 4px 0;
+	font-size: 11px;
+	color: #a2a39e;
+	border-top: 1px solid #edede9;
+}
+.invitation .invitation_details dt {
+	font-size: 11px;
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	background-image: url('../images/icons.png?1357742171');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: -3px;
+}
+.invitation .invitation_details dt.views {
+	background-position: -527px -22px;
+	width: 30px;
+}
+.invitation .invitation_details dt, .invitation .invitation_details dd {
+	font-size: 11px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+}
+.invitation .invitation_details dd {
+	margin-right: 15px;
+}
+.invitation .invitation_details dt.favorites {
+	background-position: -470px -22px;
+	margin-left: 0.8em;
+}
+.invitation .invitation_details dt, .invitation .invitation_details dd {
+	font-size: 11px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+}
+.papers_stack {
+	background-color: #fff;
+	margin: 25px auto;
+	font-family: Droid Sans;
+	color: #aaa;
+	border: 1px solid #DDDDDD;
+	padding: 0px 20px;
+	-webkit-box-shadow: 0 5px 0 -4px #fff, 0 5px 0 -3px #DDDDDD, 0 11px 0 -8px #fff, 0 11px 0 -7px #DDDDDD, 0 17px 0 -12px #fff, 0 17px 0 -11px #DDDDDD;
+	-moz-box-shadow: 0 5px 0 -4px #fff, 0 5px 0 -3px #DDDDDD, 0 11px 0 -8px #fff, 0 11px 0 -7px #DDDDDD, 0 17px 0 -12px #fff, 0 17px 0 -11px #DDDDDD;
+	box-shadow: 0 5px 0 -4px #fff, 0 5px 0 -3px #DDDDDD, 0 11px 0 -8px #fff, 0 11px 0 -7px #DDDDDD, 0 17px 0 -12px #fff, 0 17px 0 -11px #DDDDDD;
+	background: #ffffff;
+}
+/******************************************************************************************************************************************************
+TESTIMONIALS 
+********************************************************************************************************************************************************/
+.lightgrey {
+	color: #7C7C7C;
+}
+.martop30 {
+	margin-top: 30px;
+}
+.testimonial {
+	margin: 0;
+	background: #FFFFFF;
+	padding: 30px 50px;
+	position: relative;
+	color: #666;
+	border-radius: 5px;
+	font-style: italic;
+	text-shadow: 0 1px 0 #ECFBFF;
+	width: 88%;
+	margin: 0px auto;
+}
+.testimonial:before, .testimonial:after {
+	content: "\201C";
+	position: absolute;
+	font-size: 80px;
+	line-height: 1;
+	color: #999;
+	font-style: normal;
+}
+.testimonial:before {
+	top: 0;
+	left: 10px;
+}
+.testimonial:after {
+	content: "\201D";
+	right: 10px;
+	bottom: -0.5em;
+}
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #FFFFFF;
+	margin: 0 0 0 25px;
+}
+.testimonial-author {
+	margin: 0 0 0 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	text-align: left;
+}
+.testimonial-author span {
+	font-size: 12px;
+	color: #666;
+}
+/******************************************************************************************************************************************************
+FOUNDATION SEARCH OVERRIDES
+********************************************************************************************************************************************************/
+.search_button {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	background: #E8C922;
+}
+.search {
+	margin-top: -20px;
+}
