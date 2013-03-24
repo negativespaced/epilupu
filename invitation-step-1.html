@@ -119,20 +119,58 @@
                     <div class="invitation_container"> <img src="images/invitations/happy-new-year-2013.jpg" alt="Happy New Year - 2013"> </div>
                 </div>
                 <div class="six columns">
-                    <div class="formstep">
-                    <!-- form starts here -->
-                    <h3 class="darkbrown">Event Details</h3>
-                    	<form>
-  <label for="event_title">Event Title</label>
-  <input type="text" placeholder="Standard Input"  id="event_title" />
-  <label  for="event_type">Event Type</label>
-  <input type="text" placeholder="Standard Input"  id="event_type" />
-  <label>Host Name</label>
-  <input type="text" placeholder="Standard Input" />
-  
-  <textarea placeholder="Message"></textarea>
-</form>
-                    <!-- form ends here -->
+                    <div class="formstep"> 
+                    <div class="step-one"><h3 class="darkbrown">Event Details</h3></div>
+                        <!-- form starts here -->
+                        
+                        <form class="custom">
+                            <label for="event_title">Event Title</label>
+                            <input type="text" placeholder="ex: New Year Party - 2013"  id="event_title" />
+                            <label  for="event_type">Event Type</label>
+                            <select placeholder="Standard Input"  id="event_type" >
+                                <option>Select Event Type</option>
+                                <option>Public Event</option>
+                                <option>Private Event</option>
+                            </select>
+                            <label for="host_name">Host Name</label>
+                            <input type="text" placeholder="ex: John Deo" id="host_name" />
+                            <hr/>
+                            <div class="row collapse">
+                                <div class="two mobile-one columns"> <span class="prefix">#</span> </div>
+                                <div class="ten mobile-three columns">
+                                    <input type="text" placeholder="Enter Your Telephone Number" />
+                                </div>
+                            </div>
+                            <div class="row collapse">
+                                <div class="two mobile-one columns"> <span class="prefix">#</span> </div>
+                                <div class="ten mobile-three columns">
+                                    <input type="text" placeholder="Event Location" />
+                                </div>
+                            </div>
+                            <div class="row collapse">
+                                <div class="two mobile-one columns"> <span class="prefix">#</span> </div>
+                                <div class="ten mobile-three columns">
+                                    <input type="text" placeholder="Address" />
+                                </div>
+                            </div>
+                            <div class="row collapse">
+                                <div class="two mobile-one columns"> <span class="prefix">#</span> </div>
+                                <div class="ten mobile-three columns">
+                                    <input type="text" placeholder="City" />
+                                </div>
+                            </div>
+                            <div class="row collapse">
+                                <div class="two mobile-one columns"> <span class="prefix">#</span> </div>
+                                <div class="ten mobile-three columns">
+                                    <input type="text" placeholder="State" />
+                                </div>
+                            </div>
+                            <input type="submit" class="radius button" value="Next">
+                        </form>
+                        <!-- form ends here --> 
+                        <div class="step-two"><h3 class="darkbrown">Message to Guest</h3></div>
+                        <div class="step-three"><h3 class="darkbrown">Add Guests</h3></div>
+                        <div class="step-four"><h3 class="darkbrown">Invite Options</h3></div>
                     </div>
                 </div>
                 <div class="clear-fix"></div>
