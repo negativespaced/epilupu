@@ -131,7 +131,8 @@ h5 {
 	background: #FFF;
 }
 .invitation .invitation_details h3 {
-	font-size: 1.2em;
+	font-size:14px;
+	font-weight:bold;
 }
 .invitation .invitation_details h4 {
 	font-size: 1.2em;
@@ -163,6 +164,8 @@ COLORS
 .meroon {
 	color: #C84731;
 }
+.15pt{font-size:15px;}
+
 /******************************************************************************************************************************************************
 SECTIONS AND BLOCKS
 ********************************************************************************************************************************************************/
@@ -363,6 +366,16 @@ footer ul.link-list>li {
 .caps {
 	text-transform: uppercase;
 }
+.bold
+{
+	font-weight:bold;
+}
+
+.bold700
+{
+	font-weight:700;
+}
+
 .martop10 {
 	margin-top: 10px;
 }
@@ -496,6 +509,7 @@ ul.pagination li.current a {
 	font-weight: bold;
 	cursor: default;
 	border-radius: 2px;
+	
 }
 /******************************************************************************************************************************************************
 FOUNDATION SIDE NAVIGATION OVERRIDES
@@ -511,6 +525,19 @@ ul.side-nav {
 .navborder {
 	border: 1px solid #E5E5E5;
 	padding: 0px 20px 0px 20px;
+}
+.navborder ul.side-nav li a {
+	font-size:13px;
+	font-weight:bold;
+	color:#848484;
+	padding-left:20px;
+	background:url(../images/left-menu-list-arrow.png) no-repeat 5px 3px;
+}
+
+.navborder ul.side-nav li a:hover {
+
+	color:#C84731;
+
 }
 /******************************************************************************************************************************************************
 SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
