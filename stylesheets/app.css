@@ -54,6 +54,8 @@ body {
 .formstep {
 	padding: 20px;
 }
+.clear{clear:both;}
+
 /******************************************************************************************************************************************************
 FONT DECLARATIONS
 ********************************************************************************************************************************************************/
@@ -188,6 +190,48 @@ COLORS
 }
 .15pt {
 font-size:15px;
+}
+.lightmeroon {
+	color: #e8554e;
+}
+/******************************************************************************************************************************************************
+HEADINGS
+********************************************************************************************************************************************************/
+li a.guest_reminders {
+	background: url(../images/clock_icon.png) no-repeat;
+	width: 260px;
+	float: left;
+	display: inline;
+	padding: 6px 10px 6px 35px;
+	font-weight: bold;
+	color: #5F5F5F;
+}
+li a.guest_reminders:hover {
+	color: #e8554e;
+}
+li a.event_location {
+	background: url(../images/address_icon.png) no-repeat;
+	width: 260px;
+	float: left;
+	display: inline;
+	padding: 6px 10px 6px 35px;
+	font-weight: bold;
+	color: #5F5F5F;
+}
+li a.event_location:hover {
+	color: #e8554e;
+}
+li a.url_invitation {
+	background: url(../images/link_icon.png) no-repeat;
+	width: 260px;
+	float: left;
+	display: inline;
+	padding: 6px 10px 6px 35px;
+	font-weight: bold;
+	color: #5F5F5F;
+}
+li a.url_invitation:hover {
+	color: #e8554e;
 }
 /******************************************************************************************************************************************************
 SECTIONS AND BLOCKS
