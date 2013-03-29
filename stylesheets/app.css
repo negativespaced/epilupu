@@ -99,7 +99,7 @@ body {
 }
 .formstep {
 	padding: 0px;
-	background: url(../images/step-active-strip.png) repeat-y 30px 20px;
+	background: url(../images/step-active-strip.png) repeat-y 32px 20px;
 }
 .clear {
 	clear: both;
@@ -325,6 +325,8 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
+form.custom{padding-left:12px;}
+
 footer {
 	background: #ffffff url(../images/footer_border.jpg) repeat-x left top;
 	min-height: 250px;
