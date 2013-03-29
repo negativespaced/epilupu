@@ -19,6 +19,50 @@ GLOBAL STYLES
 body {
 	background: #F5F5F5;
 }
+.step-active-bg {
+	background: url(../images/step-active-strip.png) repeat-y center top;
+	width: 49px;
+}
+.one-normal-icon {
+	background: url(../images/step-one-normal-icon.png) No-repeat center top;
+	width: 49px;
+	height: 47px;
+}
+.two-normal-icon {
+	background: url(../images/step-two-normal-icon.png) No-repeat center top;
+	width: 49px;
+	height: 47px;
+}
+.three-normal-icon {
+	background: url(../images/step-three-normal-icon.png) No-repeat center top;
+	width: 49px;
+	height: 47px;
+}
+.four-normal-icon {
+	background: url(../images/step-four-normal-icon.png) No-repeat center top;
+	width: 49px;
+	height: 47px;
+}
+.one-active-icon {
+	background: url(../images/step-one-active-icon.png) No-repeat center top;
+	width: 49px;
+	min-height: 47px;
+}
+.two-active-icon {
+	background: url(../images/step-two-active-icon.png) No-repeat center top;
+	width: 49px;
+	min-height: 47px;
+}
+.three-active-icon {
+	background: url(../images/step-three-active-icon.png) No-repeat center top;
+	width: 49px;
+	min-height: 47px;
+}
+.four-active-icon {
+	background: url(../images/step-four-active-icon.png) No-repeat center top;
+	width: 49px;
+	min-height: 47px;
+}
 .homebg {
 	width: 100%;
 	background: url(../images/header_bg_large.jpg) repeat-x;
@@ -48,16 +92,18 @@ body {
 	border-radius: 2px;
 	overflow: hidden;
 	margin-left: 0;
-	padding:20px;
-	background:#FAFAFA;
+	padding: 20px;
+	background: #FAFAFA;
 }
 .invitation_container {
 }
 .formstep {
-	padding:0px;
+	padding: 0px;
+	background: url(../images/step-active-strip.png) repeat-y 30px 20px;
 }
-.clear{clear:both;}
-
+.clear {
+	clear: both;
+}
 /******************************************************************************************************************************************************
 FONT DECLARATIONS
 ********************************************************************************************************************************************************/
@@ -177,6 +223,7 @@ h4 span {
 	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
+	line-height: 19px;
 }
 /******************************************************************************************************************************************************
 COLORS
@@ -589,12 +636,14 @@ ul.breadcrumbs {
 	margin-left: 0;
 	line-height: 32px;
 }
-.right_mar10{margin-right:10px;}
+.right_mar10 {
+	margin-right: 10px;
+}
 ul.tabs-content.contained>li {
-border: solid 0 #e6e6e6;
-border-width: 0 1px 1px 1px;
-padding: 20px;
-background: #ffffff;
+	border: solid 0 #e6e6e6;
+	border-width: 0 1px 1px 1px;
+	padding: 20px;
+	background: #ffffff;
 }
 /******************************************************************************************************************************************************
 FOUNDATION SIDE NAVIGATION OVERRIDES

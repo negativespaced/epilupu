@@ -118,6 +118,8 @@
                 <div class="six columns">
                     <div class="invitation_container"> <img src="images/invitations/happy-new-year-2013.jpg" alt="Happy New Year - 2013"> </div>
                 </div>
+                <!-- Invitation container ends here --> 
+                
                 <!-- Invitation steps form starts here -->
                 <div class="six columns">
                     <div class="formstep">
@@ -134,45 +136,40 @@
                             <div class="ten columns"> <a href="invitation-step-1.html">
                                 <h3 class="darkbrown">Add Guests</h3>
                                 </a> </div>
-                            <div class="row">
-                                <div class="two columns  hide-for-small" ></div>
-                                <div class="ten columns"> 
-                                    <!-- form starts here -->
-                                    <form class="custom">
-                                        <dl class="tabs contained">
-                                            <dd class="active"><a href="#simpleContained1">Add Manually</a></dd>
-                                            <dd class="hide-for-small"><a href="#simpleContained2">ePilupu Contacts</a></dd>
-                                            <dd class="hide-for-small"><a href="#simpleContained3">Import Contacts</a></dd>
-                                        </dl>
-                                        <ul class="tabs-content contained">
-                                            <li class="active" id="simpleContained1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
-                                            <li id="simpleContained2Tab">This is simple tab 2s content. Now you see it!</li>
-                                            <li id="simpleContained3Tab">This is simple tab 3s content.</li>
-                                        </ul>
-                                        <div class="row collapse">
-                                            <div class="five columns centered"> <a class="radius button" href="#">Add to my Guest List</a> </div>
-                                        </div>
-                                        <label  for="select_language">My Guest List</label>
-                                        <textarea placeholder="" style="min-height:200px;"></textarea>
-                                        <hr/>
-                                        <div class="row collapse">
-                                            <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Message to Guest</a> </div>
-                                            <div class="six columns">
-                                                <input type="submit" class="radius button right" value="Next">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!-- form ends here --> 
-                                </div>
-                            </div>
                             <div class="two columns four-active-icon hide-for-small"></div>
                             <div class="ten columns"> <a href="invitation-step-1.html">
                                 <h3 class="darkbrown">Invite Options</h3>
                                 </a> </div>
                         </div>
+                        <div class="row">
+                            <div class="two columns  hide-for-small" ></div>
+                            <div class="ten columns"> 
+                                <!-- form starts here -->
+                                <form class="custom">
+                                    <div class="row collapse">
+                                        <label for="event_title">Event Title</label>
+                                        <input type="text" placeholder="ex: New Year Party - 2013"  id="event_title" />
+                                        <label  for="event_type">Event Type</label>
+                                        <select placeholder="Standard Input"  id="event_type" >
+                                            <option>Select Event Type</option>
+                                            <option>Public Event</option>
+                                            <option>Private Event</option>
+                                        </select>
+                                        <label for="host_name">Host Name</label>
+                                        <input type="text" placeholder="ex: John Deo" id="host_name" />
+                                        <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Message to Guest</a> </div>
+                                        <div class="six columns">
+                                            <input type="submit" class="radius button right" value="Next">
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- form ends here --> 
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="clear-fix"></div>
+                <!-- Invitation steps form ends here --> 
             </div>
         </div>
     </div>
