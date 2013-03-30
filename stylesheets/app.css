@@ -1001,7 +1001,10 @@ FOUNDATION SEARCH OVERRIDES
 .search {
 	margin-top: -20px;
 }
-
+ul.title-area
+{
+background:#4E3F32;
+}
 /******************************************************************************************************************************************************
 OUR MEDIA QUERIES
 ********************************************************************************************************************************************************/
@@ -1009,5 +1012,10 @@ OUR MEDIA QUERIES
 .formstep {
 	padding: 0px;
 	background: none;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1920px)  {
+ul.title-area li.name h1{
+display:none;
 }
 }
