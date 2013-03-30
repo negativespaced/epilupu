@@ -295,12 +295,12 @@ SECTIONS AND BLOCKS
 	color: #4E3F32;
 	padding-top: 15px;
 	height: 30px;
-	padding-right: 45px;
+	padding-right: 28px;
 }
 .user_credentials a {
 	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 18px;
 	font-weight: bold;
 	letter-spacing: 0px;
@@ -350,7 +350,7 @@ blockquote {
 	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 }
-.top_nav {
+/*.top_nav {
 	margin-top: 20px;
 	height: 30px;
 }
@@ -410,7 +410,7 @@ blockquote {
 	border-radius: 4px;
 	moz-border-radius: 4px;
 	webkit-border-radius: 4px;
-}
+}*/
 footer ul.link-list>li {
 	list-style: none;
 	float: none;
@@ -527,7 +527,61 @@ footer ul.link-list>li {
 	font-size: 13px;
 	font-style: italic;
 }
-.top_nav ul.flyout {
+.top-bar ul>li:not(.name):hover, .top-bar ul>li:not(.name).active, .top-bar ul>li:not(.name):focus {
+	background: #4E3F32;
+}
+.top-bar ul>li.has-dropdown .dropdown {
+	background: #4E3F32;
+	left: 0;
+	margin: 0;
+	padding: 9px 0 0 0;
+	position: absolute;
+	visibility: hidden;
+	z-index: 99;
+}
+.top-bar ul>li.has-dropdown .dropdown li {
+	background: #4E3F32;
+	line-height: 1;
+	min-width: 100%;
+	padding-bottom: 5px;
+}
+.top-bar {
+	background: none;
+	min-height: 30px;
+	line-height: 30px;
+	margin: 0 0 30px 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+.top-bar ul>li a:not(.button) {
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #4E3F32;
+	display: block;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+}
+.top-bar ul>li.has-dropdown a:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: solid 5px;
+	border-color: #4E3F32 transparent transparent transparent;
+	margin-right: 0px;
+	margin-top: -2.5px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.top-bar ul>li:not(.name):hover a, .top-bar ul>li:not(.name).active a, .top-bar ul>li:not(.name):focus a {
+	color: #ffffff;
+}
+/*.top_nav ul.flyout {
 	background: #ffffff;
 	padding: 4px 4px;
 	list-style: none;
@@ -564,7 +618,7 @@ footer ul.link-list>li {
 .top_nav ul.flyout li a:hover {
 	background: #4F3F32;
 	color: #F8E05C;
-}
+}*/
 .round {
 	width: 100%;
 	border-radius: 15px;

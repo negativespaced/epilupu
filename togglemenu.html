@@ -43,7 +43,7 @@
                 <div class="nine columns">
                     <div class="row right">
                         <div class="twelve columns">
-                            <div class="row user_credentials">
+                            <div class="row user_credentials hide-for-small">
                                 <ul class="inline-list right">
                                     <li><a href="#">Howdy Saikiran</a></li>
                                     <li>|</li>
@@ -52,7 +52,44 @@
                                     <li><a href="#">Logout</a></li>
                                 </ul>
                             </div>
-                            <div class="row top_nav clearfix">
+                            <nav class="top-bar">
+                                <ul class="title-area">
+                                    <!-- Title Area -->
+                                    <li class="name">
+                                        <h1 ><a href="#" > </a></h1>
+                                    </li>
+                                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                                    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                                </ul>
+                                <section class="top-bar-section"> 
+                                    <!-- Left Nav Section -->
+                                    <ul class="left">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li  class="has-dropdown"><a href="#">Invitations</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">Sankranthi</a></li>
+                                                <li><a href="#">New Year 2013</a></li>
+                                                <li><a href="#">Birthday</a></li>
+                                                <li><a href="#">Housewarming</a></li>
+                                                <li><a href="#">Wedding</a></li>
+                                                <li><a href="#">Satyannarayana Vratham</a></li>
+                                                <li><a href="#">Half Saree</a></li>
+                                                <li><a href="#">Seemantham</a></li>
+                                                <li><a href="#">Sai Pooja</a></li>
+                                                <li><a href="#">Vuyyala Function</a></li>
+                                                <li><a href="#">Aksharabhyasam</a></li>
+                                                <li><a href="#">Shastipoorthi</a></li>
+                                                <li><a href="#"> Retirement</a></li>
+                                                <li><a href="#">View All</a></li>
+                                                <li><a href="#">See all &rarr;</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Public Events</a></li>
+                                        <li ><a href="#">Create Invitation</a> </li>
+                                    </ul>
+                                </section>
+                            </nav>
+                            <!--<div class="row top_nav clearfix">
                                 <ul class="nav-bar right">
                                     <li ><a href="index.html">Home</a></li>
                                     <li class="has-flyout hide-for-small active"> <a href="invitations.html">Invitations</a> <a href="#" class="flyout-toggle "><span> </span></a>
@@ -82,7 +119,8 @@
                                     </li>
                                     <li class="has-button search_button hide-for-small hide-for-medium"> <i class="foundicon-search"></i> </li>
                                 </ul>
-                            </div>
+                            </div>--> 
+                            
                         </div>
                     </div>
                 </div>
@@ -118,6 +156,8 @@
                 <div class="six columns">
                     <div class="invitation_container"> <img src="images/invitations/happy-new-year-2013.jpg" alt="Happy New Year - 2013"> </div>
                 </div>
+                <!-- Invitation container ends here --> 
+                
                 <!-- Invitation steps form starts here -->
                 <div class="six columns">
                     <div class="formstep">
@@ -132,51 +172,46 @@
                                 </a> </div>
                             <div class="two columns three-active-icon hide-for-small"></div>
                             <div class="ten columns"> <a href="invitation-step-3.html">
-                                <h3 class="lightmeroon">Add Guests</h3>
+                                <h3 class="darkbrown">Add Guests</h3>
                                 </a> </div>
-                            <div class="row">
-                                <div class="two columns  hide-for-small" ></div>
-                                <div class="ten columns">
-                                    <div class="row">
-                                        <div class="eleven columns"> 
-                                            <!-- form starts here -->
-                                            <form class="custom">
-                                                <dl class="tabs contained">
-                                                    <dd class="active"><a href="#simpleContained1">Add Manually</a></dd>
-                                                    <dd class="hide-for-small"><a href="#simpleContained2">ePilupu Contacts</a></dd>
-                                                    <dd class="hide-for-small"><a href="#simpleContained3">Import Contacts</a></dd>
-                                                </dl>
-                                                <ul class="tabs-content contained">
-                                                    <li class="active" id="simpleContained1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
-                                                    <li id="simpleContained2Tab">This is simple tab 2s content. Now you see it!</li>
-                                                    <li id="simpleContained3Tab">This is simple tab 3s content.</li>
-                                                </ul>
-                                                <div class="row collapse">
-                                                    <div class="five columns centered"> <a class="radius button" href="#">Add to my Guest List</a> </div>
+                            <div class="two columns four-active-icon hide-for-small"></div>
+                            <div class="ten columns"> <a href="invitation-step-4.html">
+                                <h3 class="lightmeroon">Invite Options</h3>
+                                </a> </div>
+                        </div>
+                        <div class="row">
+                            <div class="two columns  hide-for-small" ></div>
+                            <div class="ten columns">
+                                <div class="row">
+                                    <div class="eleven columns"> 
+                                        <!-- form starts here -->
+                                        <form class="custom">
+                                            <div class="row collapse">
+                                                <label for="event_title">Event Title</label>
+                                                <input type="text" placeholder="ex: New Year Party - 2013"  id="event_title" />
+                                                <label  for="event_type">Event Type</label>
+                                                <select placeholder="Standard Input"  id="event_type" >
+                                                    <option>Select Event Type</option>
+                                                    <option>Public Event</option>
+                                                    <option>Private Event</option>
+                                                </select>
+                                                <label for="host_name">Host Name</label>
+                                                <input type="text" placeholder="ex: John Deo" id="host_name" />
+                                                <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Message to Guest</a> </div>
+                                                <div class="six columns">
+                                                    <input type="submit" class="radius button right" value="Next">
                                                 </div>
-                                                <label  for="select_language">My Guest List</label>
-                                                <textarea placeholder="" style="min-height:200px;"></textarea>
-                                                <hr/>
-                                                <div class="row collapse">
-                                                    <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Message to Guest</a> </div>
-                                                    <div class="six columns">
-                                                        <input type="submit" class="radius button right" value="Next">
-                                                    </div>
-                                                </div>
-                                            </form>
-                                            <!-- form ends here --> 
-                                        </div>
+                                            </div>
+                                        </form>
+                                        <!-- form ends here --> 
                                     </div>
                                 </div>
                             </div>
-                            <div class="two columns four-active-icon hide-for-small"></div>
-                            <div class="ten columns"> <a href="invitation-step-4.html">
-                                <h3 class="darkbrown">Invite Options</h3>
-                                </a> </div>
                         </div>
                     </div>
                 </div>
                 <div class="clear-fix"></div>
+                <!-- Invitation steps form ends here --> 
             </div>
         </div>
     </div>
@@ -274,7 +309,7 @@
   
   <script src="javascripts/jquery.foundation.alerts.js"></script>
   
-  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
   
   <script src="javascripts/jquery.foundation.joyride.js"></script>
   
@@ -287,6 +322,7 @@
 <!-- Included JS Files (Compressed) --> 
 <script src="javascripts/jquery.js"></script> 
 <script src="javascripts/foundation.min.js"></script> 
+<script src="javascripts/jquery.foundation.topbar.js"></script> 
 
 <!-- Initialize JS Plugins --> 
 <script src="javascripts/app.js"></script> 
