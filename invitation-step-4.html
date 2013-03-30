@@ -52,7 +52,7 @@
                                     <li><a href="#">Logout</a></li>
                                 </ul>
                             </div>
-                             <nav class="top-bar">
+                            <nav class="top-bar">
                                 <ul class="title-area">
                                     <!-- Title Area -->
                                     <li class="name">
@@ -153,23 +153,43 @@
                                 <div class="row">
                                     <div class="eleven columns"> 
                                         <!-- form starts here -->
-                                        <form class="custom">
-                                            <div class="row collapse">
-                                                <label for="event_title">Event Title</label>
-                                                <input type="text" placeholder="ex: New Year Party - 2013"  id="event_title" />
-                                                <label  for="event_type">Event Type</label>
-                                                <select placeholder="Standard Input"  id="event_type" >
-                                                    <option>Select Event Type</option>
-                                                    <option>Public Event</option>
-                                                    <option>Private Event</option>
-                                                </select>
-                                                <label for="host_name">Host Name</label>
-                                                <input type="text" placeholder="ex: John Deo" id="host_name" />
-                                                <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Message to Guest</a> </div>
-                                                <div class="six columns">
-                                                    <input type="submit" class="radius button right" value="Next">
-                                                </div>
+                                        <form class="">
+                                            <p class="bold">You are ready to send your Invitation.</p>
+                                            <p class="bold">Customize the reply header for Yes, May be and  No.</p>
+                                            <label for="reply_header_text">Who ?</label>
+                                            <input type="text" placeholder="ex: Are you coming?"  id="reply_header_text" />
+                                            <br/>
+                                            <hr>
+                                            <br/>
+                                            <p class="bold">Reply options.</p>
+                                            <label for="checkbox1">
+                                                <input type="checkbox" id="checkbox1" >
+                                                <span class="bold"> Notify me when guests rsvp.</span></label>
+                                            <label for="checkbox2">
+                                                <input type="checkbox" id="checkbox2">
+                                                <span class="bold"> Notify me when guests coment.</span></label>
+                                            <label for="checkbox3">
+                                                <input type="checkbox" CHECKED id="checkbox3">
+                                                <span class="bold"> Hide guest list.</span></label>
+                                            <label for="checkbox4">
+                                                <input type="checkbox" id="checkbox4">
+                                                <span class="bold"> Allow guests to invite other people.</span></label>
+                                            <br/>
+                                            <hr>
+                                            <br/>
+                                            <div class="six columns"> <a href="#" style="line-height:24px;">< Back to Add Guests</a> </div>
+                                            <div class="six columns">
+                                                <input type="submit" class="radius button right" value="Send Invitation">
                                             </div>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
                                         </form>
                                         <!-- form ends here --> 
                                     </div>

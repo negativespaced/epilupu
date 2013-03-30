@@ -19,6 +19,44 @@ GLOBAL STYLES
 body {
 	background: #F5F5F5;
 }
+.homebg {
+	width: 100%;
+	background: url(../images/header_bg_large.jpg) repeat-x;
+	min-height: 570px;
+	padding: 18px 0 0 0;
+}
+.innerpagebg {
+	width: 100%;
+	background: url(../images/innerpagebg.png) repeat-x;
+	min-height: 169px;
+	padding: 18px 0 0 0;
+}
+.pagebg {
+	width: 100%;
+	background: url(../images/header_bg_large.jpg) repeat-x;
+	min-height: 570px;
+	padding: 18px 0 0 0;
+}
+.invitation_step_container {
+	display: block;
+	background: #ffffff;
+	border: 1px solid #D9D9D9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	margin-left: 0;
+	padding: 20px;
+	background: #FAFAFA;
+}
+.invitation_container {
+}
+.formstep {
+	padding: 0px;
+	background: url(../images/step-active-strip.png) repeat-y 32px 20px;
+}
 .step-active-bg {
 	background: url(../images/step-active-strip.png) repeat-y center top;
 	width: 49px;
@@ -62,44 +100,6 @@ body {
 	background: url(../images/step-four-active-icon.png) No-repeat center top;
 	width: 49px;
 	min-height: 47px;
-}
-.homebg {
-	width: 100%;
-	background: url(../images/header_bg_large.jpg) repeat-x;
-	min-height: 570px;
-	padding: 18px 0 0 0;
-}
-.innerpagebg {
-	width: 100%;
-	background: url(../images/innerpagebg.png) repeat-x;
-	min-height: 169px;
-	padding: 18px 0 0 0;
-}
-.pagebg {
-	width: 100%;
-	background: url(../images/header_bg_large.jpg) repeat-x;
-	min-height: 570px;
-	padding: 18px 0 0 0;
-}
-.invitation_step_container {
-	display: block;
-	background: #ffffff;
-	border: 1px solid #D9D9D9;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-ms-border-radius: 2px;
-	-o-border-radius: 2px;
-	border-radius: 2px;
-	overflow: hidden;
-	margin-left: 0;
-	padding: 20px;
-	background: #FAFAFA;
-}
-.invitation_container {
-}
-.formstep {
-	padding: 0px;
-	background: url(../images/step-active-strip.png) repeat-y 32px 20px;
 }
 .clear {
 	clear: both;
@@ -224,6 +224,13 @@ h4 span {
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 19px;
+	letter-spacing: -1px;
+}
+.formstep h3:hover {
+	color: #e8554e;
+}
+.formstep form {
+	margin-top: 20px;
 }
 /******************************************************************************************************************************************************
 COLORS
@@ -993,4 +1000,14 @@ FOUNDATION SEARCH OVERRIDES
 }
 .search {
 	margin-top: -20px;
+}
+
+/******************************************************************************************************************************************************
+OUR MEDIA QUERIES
+********************************************************************************************************************************************************/
+@media screen and (max-width: 1000px) {
+.formstep {
+	padding: 0px;
+	background: none;
+}
 }
