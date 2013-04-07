@@ -332,6 +332,9 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
+.reveal-modal {
+	padding: 0px;
+}
 form.custom {
 	padding-left: 12px;
 }
@@ -902,10 +905,263 @@ FOUNDATION SEARCH OVERRIDES
 .search {
 	margin-top: -20px;
 }
-ul.title-area
-{
-background:#4E3F32;
+ul.title-area {
+	background: #4E3F32;
 }
+/******************************************************************************************************************************************************
+LOGIN POPUP
+********************************************************************************************************************************************************/
+.icon-social-facebook {
+	display: inline-block;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+	background-image: url(../images/facebook_icon.png);
+	background-position: center center;
+}
+.icon-social-twitter {
+	display: inline-block;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+	background-image: url(../images/twitter_icon.png);
+	background-position: center center;
+}
+.icon-social-google {
+	display: inline-block;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+	background-image: url(../images/google_icon.png);
+	background-position: center center;
+}
+#user-registration-form header {
+	background-color: black;
+	padding: 15px 20px;
+	margin: -1px -1px 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+#user-registration-form .cell, #user-registration-form .discussion-item, #user-registration-form .entry-container, #user-registration-form .modal-content #shared-markdown, .modal-content #user-registration-form #shared-markdown, #user-session-form .cell, #user-session-form .discussion-item, #user-session-form .entry-container, #user-session-form .modal-content #shared-markdown, .modal-content #user-session-form #shared-markdown {
+	padding: 20px 30px;
+	border-top: 0 none;
+}
+#user-registration-form header h2, #user-session-form header h2 {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+}
+#user-registration-form .social-signin {
+	width: 248px;
+	float: left;
+}
+#user-registration-form h4 {
+	font-size: 13px;
+	line-height: 27px;
+	border-bottom: 1px solid #d2d2d2;
+	margin-bottom: 20px;
+}
+#user-registration-form .social-signup.facebook, #user-session-form .social-signup.facebook, body.user-profile-page .social-signup.facebook, #badges-modal .social-signup.facebook, body.curricula.apis .social-signup.facebook, body.dashboard .social-signup.facebook, body.composer .social-signup.facebook, body.styleguide .social-signup.facebook, body.groups .social-signup.facebook, body.tags .social-signup.facebook, body.registrations .social-signup.facebook, body.embed .social-signup.facebook, body.quizzes .social-signup.facebook, .v2-scope .social-signup.facebook, body.curricula .social-signup.facebook, body.proposed_groups .social-signup.facebook {
+	border-color: #344e86;
+	background-color: #3b5998;
+	background-color: #4264aa;
+	background-image: deprecated-webkit-gradient(linear, left top, left bottom, #4264aa, #3b5998);
+	background-image: -webkit-linear-gradient(top, #4264aa, #3b5998);
+	background-image: -moz-linear-gradient(top, #4264aa, #3b5998);
+	background-image: -ms-linear-gradient(top, #4264aa, #3b5998);
+	background-image: -o-linear-gradient(top, #4264aa, #3b5998);
+	background-image: linear-gradient(top, #4264aa, #3b5998);
+	padding-right: 2px;
+}
+#user-registration-form .social-signup, #user-session-form .social-signup, body.user-profile-page .social-signup, #badges-modal .social-signup, body.curricula.apis .social-signup, body.dashboard .social-signup, body.composer .social-signup, body.styleguide .social-signup, body.groups .social-signup, body.tags .social-signup, body.registrations .social-signup, body.embed .social-signup, body.quizzes .social-signup, .v2-scope .social-signup, body.curricula .social-signup, body.proposed_groups .social-signup {
+	font-size: 11px;
+	border: 1px solid;
+	text-align: center;
+	padding-left: 30px;
+	position: relative;
+	color: white;
+	width: 180px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+#user-registration-form .bttn, #user-session-form .bttn, body.user-profile-page .bttn, #badges-modal .bttn, body.curricula.apis .bttn, body.dashboard .bttn, body.composer .bttn, body.styleguide .bttn, body.groups .bttn, body.tags .bttn, body.registrations .bttn, body.embed .bttn, body.quizzes .bttn, .v2-scope .bttn, body.curricula .bttn, body.proposed_groups .bttn {
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 4px 15px;
+	line-height: 20px;
+	color: #646464;
+	text-shadow: 0 0 0;
+	background-color: #fafafa;
+	background-image: deprecated-webkit-gradient(linear, left top, left bottom, #fafafa, #f0f0ff);
+	background-image: -webkit-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -moz-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -ms-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -o-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: linear-gradient(top, #fafafa, #f0f0ff);
+	-webkit-box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+	box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+}
+#user-registration-form .bttn, #user-session-form .bttn, body.user-profile-page .bttn, #badges-modal .bttn, body.curricula.apis .bttn, body.dashboard .bttn, body.composer .bttn, body.styleguide .bttn, body.groups .bttn, body.tags .bttn, body.registrations .bttn, body.embed .bttn, body.quizzes .bttn, .v2-scope .bttn, body.curricula .bttn, body.proposed_groups .bttn {
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 4px 15px;
+	line-height: 20px;
+	color: #646464;
+	text-shadow: 0 0 0;
+	background-color: #fafafa;
+	background-image: deprecated-webkit-gradient(linear, left top, left bottom, #fafafa, #f0f0ff);
+	background-image: -webkit-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -moz-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -ms-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: -o-linear-gradient(top, #fafafa, #f0f0ff);
+	background-image: linear-gradient(top, #fafafa, #f0f0ff);
+	-webkit-box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+	box-shadow: inset 0 -1px rgba(0,0,0,0.07), 0 0 0 rgba(0,0,0,0);
+}
+#user-registration-form .social-signup.facebook span, #user-session-form .social-signup.facebook span, body.user-profile-page .social-signup.facebook span, #badges-modal .social-signup.facebook span, body.curricula.apis .social-signup.facebook span, body.dashboard .social-signup.facebook span, body.composer .social-signup.facebook span, body.styleguide .social-signup.facebook span, body.groups .social-signup.facebook span, body.tags .social-signup.facebook span, body.registrations .social-signup.facebook span, body.embed .social-signup.facebook span, body.quizzes .social-signup.facebook span, .v2-scope .social-signup.facebook span, body.curricula .social-signup.facebook span, body.proposed_groups .social-signup.facebook span {
+	border-color: #263961;
+}
+#user-registration-form .social-signup span, #user-session-form .social-signup span, body.user-profile-page .social-signup span, #badges-modal .social-signup span, body.curricula.apis .social-signup span, body.dashboard .social-signup span, body.composer .social-signup span, body.styleguide .social-signup span, body.groups .social-signup span, body.tags .social-signup span, body.registrations .social-signup span, body.embed .social-signup span, body.quizzes .social-signup span, .v2-scope .social-signup span, body.curricula .social-signup span, body.proposed_groups .social-signup span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 1px solid;
+}
+#user-registration-form .social-signup.twitter, #user-session-form .social-signup.twitter, body.user-profile-page .social-signup.twitter, #badges-modal .social-signup.twitter, body.curricula.apis .social-signup.twitter, body.dashboard .social-signup.twitter, body.composer .social-signup.twitter, body.styleguide .social-signup.twitter, body.groups .social-signup.twitter, body.tags .social-signup.twitter, body.registrations .social-signup.twitter, body.embed .social-signup.twitter, body.quizzes .social-signup.twitter, .v2-scope .social-signup.twitter, body.curricula .social-signup.twitter, body.proposed_groups .social-signup.twitter {
+	border-color: #0099d3;
+	background-color: #00aced;
+	background-color: #07bbff;
+	background-image: deprecated-webkit-gradient(linear, left top, left bottom, #07bbff, #00aced);
+	background-image: -webkit-linear-gradient(top, #07bbff, #00aced);
+	background-image: -moz-linear-gradient(top, #07bbff, #00aced);
+	background-image: -ms-linear-gradient(top, #07bbff, #00aced);
+	background-image: -o-linear-gradient(top, #07bbff, #00aced);
+	background-image: linear-gradient(top, #07bbff, #00aced);
+}
+#user-registration-form .social-signup.google, #user-session-form .social-signup.google, body.user-profile-page .social-signup.google, #badges-modal .social-signup.google, body.curricula.apis .social-signup.google, body.dashboard .social-signup.google, body.composer .social-signup.google, body.styleguide .social-signup.google, body.groups .social-signup.google, body.tags .social-signup.google, body.registrations .social-signup.google, body.embed .social-signup.google, body.quizzes .social-signup.google, .v2-scope .social-signup.google, body.curricula .social-signup.google, body.proposed_groups .social-signup.google {
+	border-color: #d73925;
+	background-color: #dd4b39;
+	background-color: #e15f4f;
+	background-image: deprecated-webkit-gradient(linear, left top, left bottom, #e15f4f, #dd4b39);
+	background-image: -webkit-linear-gradient(top, #e15f4f, #dd4b39);
+	background-image: -moz-linear-gradient(top, #e15f4f, #dd4b39);
+	background-image: -ms-linear-gradient(top, #e15f4f, #dd4b39);
+	background-image: -o-linear-gradient(top, #e15f4f, #dd4b39);
+	background-image: linear-gradient(top, #e15f4f, #dd4b39);
+}
+#user-registration-form .email-signin {
+	width: 318px;
+	border-left: 1px solid #d2d2d2;
+	padding-left: 40px;
+	float: right;
+	background-color: #fafafa;
+}
+#user-registration-form .or, #user-session-form .or {
+	line-height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 50%;
+	left: -21px;
+	margin-top: -20px;
+	text-align: center;
+	font-style: italic;
+	color: #424242;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#user-registration-form h4 {
+	font-size: 13px;
+	line-height: 27px;
+	border-bottom: 1px solid #d2d2d2;
+	margin-bottom: 20px;
+}
+#user-registration-form .or {
+	line-height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 50%;
+	left: -21px;
+	margin-top: -20px;
+	text-align: center;
+	font-style: italic;
+	color: #424242;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#user-registration-form form {
+	margin: 0;
+}
+#user-registration-form input[type='text'], #user-registration-form input[type='email'], #user-registration-form input[type='password'], #user-session-form input[type='text'], #user-session-form input[type='email'], #user-session-form input[type='password'] {
+	line-height: 1;
+	padding: 6px 10px;
+	background: white;
+	width: 100%;
+}
+#user-registration-form input, #user-registration-form textarea, #user-session-form input, #user-session-form textarea, body.user-profile-page input, body.user-profile-page textarea, #badges-modal input, #badges-modal textarea, body.curricula.apis input, body.curricula.apis textarea, body.dashboard input, body.dashboard textarea, body.composer input, body.composer textarea, body.styleguide input, body.styleguide textarea, body.groups input, body.groups textarea, body.tags input, body.tags textarea, body.registrations input, body.registrations textarea, body.embed input, body.embed textarea, body.quizzes input, body.quizzes textarea, .v2-scope input, .v2-scope textarea, body.curricula input, body.curricula textarea, body.proposed_groups input, body.proposed_groups textarea {
+	border: 1px solid #d2d2d2;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 2px #ddd, 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: inset 0 0 2px #ddd, 0 0 0 rgba(0,0,0,0);
+	box-shadow: inset 0 0 2px #ddd, 0 0 0 rgba(0,0,0,0);
+}
+#user-registration-form label {
+	display: inline;
+	font-size: 13px;
+	font-weight: normal;
+}
+#user-registration-form .secondary {
+	float: right;
+	color: #969696;
+	font-size: 11px;
+}
+
+#user-registration-form .create-account {
+margin-top: 26px;
+}
+#user-registration-form .secondary {
+float: right;
+color: #969696;
+font-size: 11px;
+}
+
 /******************************************************************************************************************************************************
 OUR MEDIA QUERIES
 ********************************************************************************************************************************************************/
@@ -915,8 +1171,8 @@ OUR MEDIA QUERIES
 	background: none;
 }
 }
-@media screen and (min-width: 800px) and (max-width: 1920px)  {
-ul.title-area li.name h1{
-display:none;
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+ul.title-area li.name h1 {
+	display: none;
 }
 }
