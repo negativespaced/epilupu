@@ -332,6 +332,8 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
+.colnopad{padding:0px;}
+
 .reveal-modal {
 	padding: 0px;
 }
@@ -341,7 +343,7 @@ FOUNDATION  OVERRIDES
 	line-height: .5;
 	position: absolute;
 	top: 18px;
-	right: 11px;
+	right: 20px;
 	color: #aaa;
 	text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
 	font-weight: bold;
@@ -950,25 +952,29 @@ LOGIN POPUP
 	background-image: url(../images/google_icon.png);
 	background-position: center center;
 }
-#user-registration-form header {
+#user-registration-form{
+width:570px;
+}
+#popup header {
 	background-color: #46392D;
 	padding: 15px 20px;
-	margin: -1px -1px 0;
+	
 	-webkit-border-radius: 3px 3px 0 0;
 	-moz-border-radius: 3px 3px 0 0;
 	border-radius: 3px 3px 0 0;
+	width:100%;
 }
 #user-registration-form .cell {
 	padding: 20px 30px;
 	border-top: 0 none;
 }
-#user-registration-form header h2 {
+#popup  header h2 {
 	font-size: 15px;
 	color: white;
 	margin: 0;
 }
 #user-registration-form .social-signin {
-	width: 248px;
+	
 	float: left;
 }
 #user-registration-form .social-signin a {
@@ -1102,9 +1108,9 @@ LOGIN POPUP
 #user-registration-form .email-signin {
 	width: 318px;
 	border-left: 1px solid #d2d2d2;
-	padding-left: 40px;
-	float: right;
-	background-color: #fafafa;
+	
+	
+	background-color: #fff;
 }
 #user-registration-form .or, #user-session-form .or {
 	line-height: 40px;
@@ -1172,9 +1178,24 @@ OUR MEDIA QUERIES
 	padding: 0px;
 	background: none;
 }
+
 }
+
 @media screen and (min-width: 800px) and (max-width: 1920px) {
 ul.title-area li.name h1 {
 	display: none;
 }
+
 }
+@media screen and (max-width: 760px) {
+#user-registration-form{
+width:100%;
+}
+#user-registration-form .email-signin {
+width: 100%;
+border-left: 1px solid #ffffff;
+padding-left: 20px;
+background-color: #ffffff;
+}
+}
+
