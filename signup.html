@@ -31,36 +31,28 @@
 <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
-
 <div id="exampleModal" class="reveal-modal open" style="top: 300px; opacity: 1; visibility: visible; display: block; width:570px;">
-	<div id="user-registration-form">
-                <header>
-                    <h2>Sign in to ePilupu</h2>
-                </header>
-                <div class="cell social-signin">
-                    <h4>Sign in with...</h4>
-                    <a href="#" class="bttn social-signup facebook sign-up"><span class="icon-social-facebook"></span>Sign in with Facebook</a> 
-                    <a href="#" class="bttn social-signup twitter sign-up"><span class="icon-social-twitter"></span>Sign in with Twitter</a> 
-                    <a href="#" class="bttn social-signup google sign-up"><span class="icon-social-google"></span>Sign in with Google</a> 
-                </div>
-                <div class="cell neutral email-signin">
-                    <h4>Sign in with email</h4>
-                        <form accept-charset="UTF-8" action="/sign_in" class="new_user" id="new-session" method="post">
-                        <input id="user_login" name="user[login]" placeholder="Email or username" size="30" tabindex="1" type="text" class="ui-inited">
-                        <input id="user_password" name="user[password]" placeholder="Password" size="30" tabindex="2" type="password" class="ui-inited">
-                        <div class="remember-me">
-                            <input name="user[remember_me]" type="hidden" value="0" class="ui-inited">
-                            <input checked="checked" id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" class="ui-inited">
-                            <label for="user_remember_me">Remember me</label>
-                            <a href="#" class="secondary">Forgot your password?</a> </div>
-                        <div>
-                        <br/>
-                            <input class="radius button"  type="submit" value="Login">
-                            <a href="#" class="create-account secondary">Create Account</a> </div>
-                    </form>
-                </div>
-   		<a class="close-reveal-modal">×</a> 
-    	 </div>
+    <div id="user-registration-form">
+        <header>
+            <h2>Sign Up with ePilupu</h2>
+        </header>
+        <div class="cell social-signin">
+            <h4>Sign Up with...</h4>
+            <a href="#" class="bttn social-signup facebook sign-up"><span class="icon-social-facebook"></span>Sign in with Facebook</a> <a href="#" class="bttn social-signup twitter sign-up"><span class="icon-social-twitter"></span>Sign in with Twitter</a> <a href="#" class="bttn social-signup google sign-up"><span class="icon-social-google"></span>Sign in with Google</a> </div>
+        <div class="cell neutral email-signin">
+            <h4>Sign Up with email</h4>
+            <form accept-charset="UTF-8" action="/sign_in" class="new_user" id="new-session" method="post">
+                <input id="username" name="username" placeholder="Username" size="30" tabindex="1" type="text" class="ui-inited">
+                <input id="email" name="email" placeholder="Email" size="30" tabindex="1" type="text" class="ui-inited">
+                <input id="password" name="password" placeholder="Password" size="30" tabindex="2" type="password" class="ui-inited">
+                <input class="radius button"  type="submit" value="Create Account">
+                <br/>
+                <br/>
+                <a href="#" class="secondary" style="float:left;"> Already have an account? Sign In</a>
+                <div> </div>
+            </form>
+        </div>
+        <a class="close-reveal-modal">×</a> </div>
 </div>
 
 <!-- Included JS Files (Uncompressed) --> 
