@@ -346,6 +346,24 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
+label
+{
+font-size:12px;
+font-weight:bold;
+}
+
+.tabs.pill dd, .tabs.pill li {
+margin-right: 5px;
+}
+.tabs dd a, .tabs li a {
+color: #6f6f6f;
+display: block;
+font-size: 14px;
+height: 40px;
+line-height: 40px;
+padding: 0px 12px;
+}
+
 form.custom div.custom.dropdown {
 display: block;
 position: relative;
