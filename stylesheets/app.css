@@ -901,6 +901,26 @@ a {
 	background-position: -527px -22px;
 	width: 30px;
 }
+.invitation .invitation_details dt.edit {
+	background-position: -655px -22px;
+	width: 30px;
+}
+.invitation .invitation_details dt.delete {
+	background-position: -655px -82px;
+	width: 30px;
+}
+
+
+
+.user_admin_container .invitation_details ul, ol, dl {
+font-size: 14px;
+line-height: 1.6;
+margin-bottom: 5px;
+list-style-position: outside;
+}
+
+.editing_panel a{font-size:12px; font-weight:bold;}
+
 .invitation .invitation_details dt, .invitation .invitation_details dd {
 	font-size: 11px;
 	display: -moz-inline-stack;
