@@ -51,6 +51,20 @@ body {
 	padding: 20px;
 	background: #FAFAFA;
 }
+.user_admin_container {
+	display: block;
+	
+	border: 1px solid #D9D9D9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	margin-left: 0;
+	padding: 20px 50px;
+	background: #ffffff;
+}
 .invitation_container {
 }
 .formstep {
@@ -332,6 +346,11 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
+.tabs dd.active, .tabs li.active {
+border-top: 3px solid #4e3f32;
+margin-top: -3px;
+}
+
 .top-bar ul>li.toggle-topbar a {
 content: "";
 display: block;
@@ -385,6 +404,9 @@ height:24px;
 }
 form.custom {
 	padding-left: 12px;
+}
+.user_admin_container form.custom {
+	padding-left: 0px;
 }
 footer {
 	background: #ffffff url(../images/footer_border.jpg) repeat-x left top;
@@ -1267,5 +1289,20 @@ float: right;
 margin-left: 4px;
 display: block;
 }
+.user_admin_container {
+	display: block;
+	
+	border: 1px solid #D9D9D9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	margin-left: 0;
+	padding: 20px 30px;
+	background: #ffffff;
+}
+
 }
 
