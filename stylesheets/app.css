@@ -53,7 +53,6 @@ body {
 }
 .user_admin_container {
 	display: block;
-	
 	border: 1px solid #D9D9D9;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -346,73 +345,69 @@ SECTIONS AND BLOCKS
 /******************************************************************************************************************************************************
 FOUNDATION  OVERRIDES
 ********************************************************************************************************************************************************/
-label
-{
-font-size:12px;
-font-weight:bold;
+label {
+	font-size: 12px;
+	font-weight: bold;
 }
-
 .tabs.pill dd, .tabs.pill li {
-margin-right: 5px;
+	margin-right: 5px;
 }
 .tabs dd a, .tabs li a {
-color: #6f6f6f;
-display: block;
-font-size: 14px;
-height: 40px;
-line-height: 40px;
-padding: 0px 12px;
+	color: #6f6f6f;
+	display: block;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 12px;
 }
-
 form.custom div.custom.dropdown {
-display: block;
-position: relative;
-height: 28px;
-margin-bottom: 9px;
-margin-top: 2px;
-width: 100%;
+	display: block;
+	position: relative;
+	height: 28px;
+	margin-bottom: 9px;
+	margin-top: 2px;
+	width: 100%;
 }
 .tabs dd.active, .tabs li.active {
-border-top: 3px solid #4e3f32;
-margin-top: -3px;
+	border-top: 3px solid #4e3f32;
+	margin-top: -3px;
 }
-
 .top-bar ul>li.toggle-topbar a {
-content: "";
-display: block;
-width: 0;
-height: 0;
-background:url(../images/menuicon.png) no-repeat;
-border: 0px;
-border-color: none;
-padding: 0;
-position: absolute;
-top: 30%;
-right: 22.5px;
-margin-top: -4px;
-width:24px;
-height:24px;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	background: url(../images/menuicon.png) no-repeat;
+	border: 0px;
+	border-color: none;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	right: 22.5px;
+	margin-top: -4px;
+	width: 24px;
+	height: 24px;
 }
 .top-bar.expanded ul li.toggle-topbar a {
-content: "";
-display: block;
-width: 0;
-height: 0;
-background:url(../images/menuicon_active.png) no-repeat;
-border: 0px;
-border-color: none;
-top: auto;
-
-padding: 0;
-position: absolute;
-top: 30%;
-right: 22.5px;
-margin-top: -4px;
-width:24px;
-height:24px;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	background: url(../images/menuicon_active.png) no-repeat;
+	border: 0px;
+	border-color: none;
+	top: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	right: 22.5px;
+	margin-top: -4px;
+	width: 24px;
+	height: 24px;
 }
-.colnopad{padding:0px;}
-
+.colnopad {
+	padding: 0px;
+}
 .reveal-modal {
 	padding: 0px;
 }
@@ -735,6 +730,24 @@ ul.side-nav {
 	color: #C84731;
 }
 /******************************************************************************************************************************************************
+PREVIEW INVITATION
+********************************************************************************************************************************************************/
+.invitationbase {
+	margin-top: -14px;
+}
+.header_preview_invitation {
+	height: 96px;
+	background: url(../images/preview_invitation_beaderbg.jpg) repeat-x;
+	text-align: center;
+}
+.header_preview_invitation img {
+	padding-top: 30px;
+}
+.greypattern {
+	height: 7px;
+	background: url(../images/grey-pattern.png) repeat-x;
+}
+/******************************************************************************************************************************************************
 SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
 ********************************************************************************************************************************************************/
 [class*="foundicon-"]:after {
@@ -838,8 +851,9 @@ SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
 /******************************************************************************************************************************************************
 INVITATIONS
 ********************************************************************************************************************************************************/
-.topspace{margin-top:10px;}
-
+.topspace {
+	margin-top: 10px;
+}
 .invitation {
 	text-align: center;
 }
@@ -909,18 +923,16 @@ a {
 	background-position: -655px -82px;
 	width: 30px;
 }
-
-
-
 .user_admin_container .invitation_details ul, ol, dl {
-font-size: 14px;
-line-height: 1.6;
-margin-bottom: 5px;
-list-style-position: outside;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 5px;
+	list-style-position: outside;
 }
-
-.editing_panel a{font-size:12px; font-weight:bold;}
-
+.editing_panel a {
+	font-size: 12px;
+	font-weight: bold;
+}
 .invitation .invitation_details dt, .invitation .invitation_details dd {
 	font-size: 11px;
 	display: -moz-inline-stack;
@@ -1056,29 +1068,27 @@ LOGIN POPUP
 	background-image: url(../images/google_icon.png);
 	background-position: center center;
 }
-#user-registration-form{
-width:570px;
+#user-registration-form {
+	width: 570px;
 }
 #popup header {
 	background-color: #46392D;
 	padding: 15px 20px;
-	
 	-webkit-border-radius: 3px 3px 0 0;
 	-moz-border-radius: 3px 3px 0 0;
 	border-radius: 3px 3px 0 0;
-	width:100%;
+	width: 100%;
 }
 #user-registration-form .cell {
 	padding: 20px 30px;
 	border-top: 0 none;
 }
-#popup  header h2 {
+#popup header h2 {
 	font-size: 15px;
 	color: white;
 	margin: 0;
 }
 #user-registration-form .social-signin {
-	
 	float: left;
 }
 #user-registration-form .social-signin a {
@@ -1212,8 +1222,6 @@ width:570px;
 #user-registration-form .email-signin {
 	width: 318px;
 	border-left: 1px solid #d2d2d2;
-	
-	
 	background-color: #fff;
 }
 #user-registration-form .or, #user-session-form .or {
@@ -1282,64 +1290,56 @@ OUR MEDIA QUERIES
 	padding: 0px;
 	background: none;
 }
-
 }
-
-@media screen and (min-width: 800px) and (max-width: 1920px) {
+ @media screen and (min-width: 800px) and (max-width: 1920px) {
 ul.title-area li.name h1 {
 	display: none;
 }
-
 }
 @media screen and (max-width: 760px) {
-#user-registration-form{
-width:100%;
+#user-registration-form {
+	width: 100%;
 }
 #user-registration-form .email-signin {
-width: 100%;
-border-left: 1px solid #ffffff;
-padding-left: 20px;
-background-color: #ffffff;
+	width: 100%;
+	border-left: 1px solid #ffffff;
+	padding-left: 20px;
+	background-color: #ffffff;
 }
 .user_credentials {
-font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
-text-transform: uppercase;
-font-size: 15px;
-line-height: 18px;
-font-weight: bold;
-letter-spacing: 0px;
-color: #4E3F32;
-padding-top:0px;
-height: 30px;
-padding-right:0px;
-text-align: center;
-padding-left:15px;
-
-
-
+	font-family: 'proxima_nova_ltbold', Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #4E3F32;
+	padding-top: 0px;
+	height: 30px;
+	padding-right: 0px;
+	text-align: center;
+	padding-left: 15px;
 }
-
 .user_credentials ul.inline-list, ul.link-list {
-margin: 50px 20px 17px -22px;
-padding: 0;
-list-style: none;
-overflow: visible;
+	margin: 50px 20px 17px -22px;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
 }
 .user_credentials ul.inline-list>li, ul.link-list>li {
-list-style: none;
-float: right;
-margin-right:4px;
-display: block;
+	list-style: none;
+	float: right;
+	margin-right: 4px;
+	display: block;
 }
 .user_credentials ul.inline-list>li, ul.link-list>li {
-list-style: none;
-float: right;
-margin-left: 4px;
-display: block;
+	list-style: none;
+	float: right;
+	margin-left: 4px;
+	display: block;
 }
 .user_admin_container {
 	display: block;
-	
 	border: 1px solid #D9D9D9;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -1351,6 +1351,4 @@ display: block;
 	padding: 20px 30px;
 	background: #ffffff;
 }
-
 }
-
