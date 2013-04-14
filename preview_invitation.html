@@ -92,34 +92,49 @@
                 
                 <!-- LOCATION STARTS HERE -->
                 <section class="location">
-                <h3 class="brown">MAP</h3>
+                    <h3 class="brown">MAP</h3>
                     <p class="bold grey">Get the directions to reach venue</p>
                     <form>
-                    
-                     <label for="from">From</label>
-                                                <input type="text" placeholder="Begumpet, Hyderabad, Andhra Pradesh, India, 500016"  id="from" />
-                                                <label  for="to">To</label>
-                                                <input type="text" placeholder="Ameerpet, Hyderabad, Andhra Pradesh, India, 500016"  id="to"/>
-                                                
+                        <label for="from">From</label>
+                        <input type="text" placeholder="Begumpet, Hyderabad, Andhra Pradesh, India, 500016"  id="from" />
+                        <label  for="to">To</label>
+                        <input type="text" placeholder="Ameerpet, Hyderabad, Andhra Pradesh, India, 500016"  id="to"/>
                     </form>
-                    <div class="mapholder"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.in/maps?f=d&amp;source=s_d&amp;saddr=Begumpet,+Hyderabad,+Andhra+Pradesh&amp;daddr=Ameerpet,+Hyderabad,+Andhra+Pradesh&amp;hl=en&amp;geocode=FWMvCgEdTU2tBClPhSjto5DLOzGMGy-Mk0sIIA%3BFbIICgEdiwWtBCmDMbRbxZDLOzEDJ-4jWxO8Gg&amp;aq=0&amp;oq=ameerpe&amp;sll=20.98352,82.752628&amp;sspn=63.590632,135.263672&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=17.43971,78.457175&amp;spn=0.010605,0.01841&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.in/maps?f=d&amp;source=embed&amp;saddr=Begumpet,+Hyderabad,+Andhra+Pradesh&amp;daddr=Ameerpet,+Hyderabad,+Andhra+Pradesh&amp;hl=en&amp;geocode=FWMvCgEdTU2tBClPhSjto5DLOzGMGy-Mk0sIIA%3BFbIICgEdiwWtBCmDMbRbxZDLOzEDJ-4jWxO8Gg&amp;aq=0&amp;oq=ameerpe&amp;sll=20.98352,82.752628&amp;sspn=63.590632,135.263672&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=17.43971,78.457175&amp;spn=0.010605,0.01841" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
+                    <div class="mapholder">
+                        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.in/maps?f=d&amp;source=s_d&amp;saddr=Begumpet,+Hyderabad,+Andhra+Pradesh&amp;daddr=Ameerpet,+Hyderabad,+Andhra+Pradesh&amp;hl=en&amp;geocode=FWMvCgEdTU2tBClPhSjto5DLOzGMGy-Mk0sIIA%3BFbIICgEdiwWtBCmDMbRbxZDLOzEDJ-4jWxO8Gg&amp;aq=0&amp;oq=ameerpe&amp;sll=20.98352,82.752628&amp;sspn=63.590632,135.263672&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=17.43971,78.457175&amp;spn=0.010605,0.01841&amp;output=embed"></iframe>
+                        <br />
+                        <small><a href="http://maps.google.co.in/maps?f=d&amp;source=embed&amp;saddr=Begumpet,+Hyderabad,+Andhra+Pradesh&amp;daddr=Ameerpet,+Hyderabad,+Andhra+Pradesh&amp;hl=en&amp;geocode=FWMvCgEdTU2tBClPhSjto5DLOzGMGy-Mk0sIIA%3BFbIICgEdiwWtBCmDMbRbxZDLOzEDJ-4jWxO8Gg&amp;aq=0&amp;oq=ameerpe&amp;sll=20.98352,82.752628&amp;sspn=63.590632,135.263672&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=17.43971,78.457175&amp;spn=0.010605,0.01841" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
                     <input type="submit" class="radius button topspace" value="Get Direction">
-                    
                 </section>
                 <div class="greypattern"></div>
                 <!-- LOCATION ENDS HERE --> 
                 
                 <!-- GUEST LIST STARTS HERE -->
-                <section class="guestlist"></section>
+                <section class="guestlist">
+                    <h3 class="brown">GUEST LIST</h3>
+                    <p class="bold grey">Know how many are attending and plan according to it.</p>
+                    <dl class="tabs">
+                        <dd class="active"><a href="#yes">Yes</a></dd>
+                        <dd><a href="#no">No</a></dd>
+                        <dd ><a href="#maybe">May Be</a></dd>
+                        <dd class="hide-for-small"><a href="#notyetresponded">Not Yet Responded</a></dd>
+                    </dl>
+                    <ul class="tabs-content">
+                        <li class="active" id="yesTab">This is simple tab 1s content. Pretty neat, huh?</li>
+                        <li id="noTab">This is simple tab 2s content. Now you see it!</li>
+                        <li id="maybeTab">This is simple tab 3s content.</li>
+                        <li id="notyetrespondedTab">This is simple tab 3s content.</li>
+                    </ul>
+                </section>
                 <div class="greypattern"></div>
                 <!-- GUEST LIST ENDS HERE --> 
                 
                 <!-- FOOTER STARTS HERE -->
-                <footer>
-                    <div class="row clearfix footer-border">
-                        <p>Copyright © 2010 epilupu.</p>
+                <div class="copyright">
+                    <div class="row clearfix ">
+                        <p class="grey">Copyright © 2010 epilupu.</p>
                     </div>
-                </footer>
+                </div>
                 <!-- FOOTER ENDS HERE --> 
             </div>
         </div>
