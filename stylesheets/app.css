@@ -735,6 +735,15 @@ PREVIEW INVITATION
 .invitationbase {
 	margin-top: -14px;
 }
+.invitation_border {
+	border-right: 20px solid #FFF;
+	border-left: 20px solid #FFF;
+	background: #FFF;
+}
+.invitation_border_bg {
+	height: 20px;
+	background: url(../images/invitation_border_bg.jpg) no-repeat center top;
+}
 .header_preview_invitation {
 	height: 96px;
 	background: url(../images/preview_invitation_beaderbg.jpg) repeat-x;
@@ -746,6 +755,20 @@ PREVIEW INVITATION
 .greypattern {
 	height: 7px;
 	background: url(../images/grey-pattern.png) repeat-x;
+}
+.invitation_content {
+	padding: 20px 10px
+}
+.invitation_content h3 {
+	text-align: center;
+}
+.invitation_content p {
+	font-family: 'Droid Serif', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #AAA9A9;
+	text-align: center;
+	line-height: 24px;
 }
 /******************************************************************************************************************************************************
 SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
