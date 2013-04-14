@@ -736,8 +736,13 @@ ul.side-nav {
 PREVIEW INVITATION
 ********************************************************************************************************************************************************/
 .invitationbase {
-	margin-top: -14px;
+
 }
+.messagebox
+{
+text-align:center;
+}
+
 .invitation_border {
 	border-right: 20px solid #FFF;
 	border-left: 20px solid #FFF;
