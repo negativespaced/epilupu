@@ -263,6 +263,8 @@ font-size:15px;
 .lightmeroon {
 	color: #e8554e;
 }
+.grey{color:#757575;}
+
 /******************************************************************************************************************************************************
 HEADINGS
 ********************************************************************************************************************************************************/
@@ -779,10 +781,13 @@ PREVIEW INVITATION
 	text-align: center;
 	line-height: 24px;}
 .rsvp{ text-align:center; padding:30px 0px;}
+
 .rsvp h3{ font-size:36px; font-weight:bold; text-align:center;}
 
-
-
+.location{ text-align:center; padding:30px 0px;}
+.location h3{ font-size:36px; font-weight:bold; text-align:center;}
+.location form label{text-align:left;}
+.mapholder{ width:100%; min-height:300px; }
 a.button_reply {
 background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
 background-image: -webkit-gradient(linear,left top,left bottom,
@@ -1479,4 +1484,10 @@ ul.title-area li.name h1 {
 	padding: 20px 30px;
 	background: #ffffff;
 }
+a.button_reply {
+
+width:100%;
+
+}
+
 }
