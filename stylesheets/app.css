@@ -778,8 +778,11 @@ PREVIEW INVITATION
 	color: #4E3F32;
 	text-align: center;
 	line-height: 24px;}
-.rsvp{ text-align:center;}
+.rsvp{ text-align:center; padding:30px 0px;}
 .rsvp h3{ font-size:36px; font-weight:bold; text-align:center;}
+
+
+
 a.button_reply {
 background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
 background-image: -webkit-gradient(linear,left top,left bottom,
@@ -802,10 +805,11 @@ float: left;
 margin-right: 15px;
 margin-bottom: 15px;
 display: block;
-color: #597390;
-line-height: 24px;
-font-size: 20px;
+color: #757575;
+line-height: 26px;
+font-size: 14px;
 font-weight: bold;
+
 }
 a.button_reply:hover {
 background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
@@ -829,22 +833,48 @@ filter: progid:DXImageTransform.Microsoft.gradient
     (startColorStr='#dbdbdb', EndColorStr='#ffffff')";
 text-shadow: 0px -1px 0 rgba(255, 255, 255, 0.5);
 margin-top: 1px;
+
 }
 
 a.button_reply {
 border: 1px solid #979797;
 }
-a.button.icon {
+a.button_reply.iconyes {
 padding-left: 11px;
+
 }
 
-a.button.icon span{
-padding-left: 36px;
-background: url(images/icons.png) no-repeat 0 -4px;
+a.button_reply.iconyes span{
+	
+padding-left: 26px;
+background:url(../images/yes_icon.png) no-repeat;
+
 }
-a.button.icon.chat span {
-background-position: 0px -36px;
+
+a.button_reply.iconno {
+padding-left: 11px;
+
 }
+
+a.button_reply.iconno span{
+	
+padding-left: 26px;
+background:url(../images/no_icon.png) no-repeat;
+
+}
+
+a.button_reply.iconmaybe {
+padding-left: 11px;
+
+}
+
+a.button_reply.iconmaybe span{
+	
+padding-left: 26px;
+background:url(../images/maybe_icon.png) no-repeat;
+
+}
+
 /******************************************************************************************************************************************************
 SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
 ********************************************************************************************************************************************************/
