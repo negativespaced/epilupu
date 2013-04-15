@@ -6,11 +6,19 @@
 :: 1: GLOBAL STYLES
 :: 2: FONTS AND THEIR DECLARATIONS
 :: 3: HEADINGS
-:: 4: SECTIONS
-:: 3: Headings
-:: 3: Headings
-:: 3: Headings
-:: 3: Headings
+:: 4: COLORS
+:: 5: LISTS
+:: 6: SECTIONS AND BLOCKS
+:: 7: FOUNDATION  OVERRIDES
+:: 8: FOUNDATION PAGINATION  OVERRIDES
+:: 9: FOUNDATION SIDE NAVIGATION OVERRIDES
+:: 10: PREVIEW INVITATION
+:: 11: SOCIAL FOUNDATION - SOCIAL MEDIA ICONS WITHOUT IMAGES
+:: 12: INVITATIONS
+:: 13: TESTIMONIALS
+:: 14: FOUNDATION SEARCH OVERRIDES
+:: 15: LOGIN POPUP
+:: 16: OUR MEDIA QUERIES
 */
 
 /******************************************************************************************************************************************************
@@ -209,7 +217,7 @@ h5 {
 }
 .invitation_details {
 	background: #FFF;
-	padding:10px 10px 4px 10px;
+	padding: 10px 10px 4px 10px;
 }
 .invitation .invitation_details h3 {
 	font-size: 16px;
@@ -268,7 +276,7 @@ font-size:15px;
 	color: #757575;
 }
 /******************************************************************************************************************************************************
-HEADINGS
+LISTS
 ********************************************************************************************************************************************************/
 li a.guest_reminders {
 	background: url(../images/clock_icon.png) no-repeat;
@@ -652,20 +660,19 @@ footer ul.link-list>li {
 	height: 30px;
 }
 .top-bar ul>li.has-dropdown.moved .back.title h5 a {
-background: transparent;
-padding-top: 8px;
-padding-bottom: 8px;
-font-size: 23px;
-font-weight: bold;
-font-style:normal;
-color:#FAE25E;
+	background: transparent;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 23px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FAE25E;
 }
 .tabs.pill dd.active a, .tabs.pill li.active a {
-background-color: #4e3f32;
-border: none;
-color: #fff;
+	background-color: #4e3f32;
+	border: none;
+	color: #fff;
 }
-
 /******************************************************************************************************************************************************
 FOUNDATION PAGINATION  OVERRIDES
 ********************************************************************************************************************************************************/
@@ -752,13 +759,10 @@ ul.side-nav {
 PREVIEW INVITATION
 ********************************************************************************************************************************************************/
 .invitationbase {
-
 }
-.messagebox
-{
-text-align:center;
+.messagebox {
+	text-align: center;
 }
-
 .invitation_border {
 	border-right: 20px solid #FFF;
 	border-left: 20px solid #FFF;
@@ -1018,7 +1022,7 @@ INVITATIONS
 }
 .invitation {
 	text-align: center;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 .shadow {
 	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
