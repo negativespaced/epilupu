@@ -86,16 +86,22 @@ body {
 	background: url(../images/step-one-normal-icon.png) No-repeat center top;
 	width: 49px;
 	height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .two-normal-icon {
 	background: url(../images/step-two-normal-icon.png) No-repeat center top;
 	width: 49px;
 	height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .three-normal-icon {
 	background: url(../images/step-three-normal-icon.png) No-repeat center top;
 	width: 49px;
 	height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .four-normal-icon {
 	background: url(../images/step-four-normal-icon.png) No-repeat center top;
@@ -106,21 +112,29 @@ body {
 	background: url(../images/step-one-active-icon.png) No-repeat center top;
 	width: 49px;
 	min-height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .two-active-icon {
 	background: url(../images/step-two-active-icon.png) No-repeat center top;
 	width: 49px;
 	min-height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .three-active-icon {
 	background: url(../images/step-three-active-icon.png) No-repeat center top;
 	width: 49px;
 	min-height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .four-active-icon {
 	background: url(../images/step-four-active-icon.png) No-repeat center top;
 	width: 49px;
 	min-height: 47px;
+	margin:0px auto;
+	text-align:center;
 }
 .clear {
 	clear: both;
