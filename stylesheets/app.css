@@ -651,6 +651,21 @@ footer ul.link-list>li {
 	width: 190px;
 	height: 30px;
 }
+.top-bar ul>li.has-dropdown.moved .back.title h5 a {
+background: transparent;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 23px;
+font-weight: bold;
+font-style:normal;
+color:#FAE25E;
+}
+.tabs.pill dd.active a, .tabs.pill li.active a {
+background-color: #4e3f32;
+border: none;
+color: #fff;
+}
+
 /******************************************************************************************************************************************************
 FOUNDATION PAGINATION  OVERRIDES
 ********************************************************************************************************************************************************/
